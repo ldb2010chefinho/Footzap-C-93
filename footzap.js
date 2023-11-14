@@ -5,4 +5,3 @@ function addUser() {
  localStorage.setItem("userName",userName);
  window.location="footzapRoom.html"
 }
-
