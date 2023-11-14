@@ -20,7 +20,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 userName = localStorage.getItem("userName");
 roomName = localStorage.getItem("roomName");
